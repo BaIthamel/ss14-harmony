@@ -39,6 +39,27 @@
     Telecrystal: 4
   categories:
   - UplinkExplosives
+  conditions:
+  - !type:BuyerWhitelistCondition
+    blacklist:
+      components:
+      - SurplusBundle
+
+- type: listing
+  id: UplinkPizzaBombSurplus
+  name: uplink-pizza-bomb-surplus-name #not needed, never listed in store
+  description: uplink-pizza-bomb-surplus-desc
+  productEntity: PizzabombSurplus
+  cost:
+    Telecrystal: 4
+  categories:
+  - UplinkExplosives
+  conditions:
+  - !type:BuyerWhitelistCondition
+    whitelist:
+      components:
+      - SurplusBundle
+
 
 # Ammo
 
