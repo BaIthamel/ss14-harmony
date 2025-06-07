@@ -49,7 +49,7 @@
 # packaging when acquired from a surplus crate.
 - type: listing
   id: UplinkPizzaBombSurplus
-  name: uplink-pizza-bomb-surplus-name #not needed, never listed in store
+  name: uplink-pizza-bomb-surplus-name
   description: uplink-pizza-bomb-surplus-desc
   productEntity: PizzabombSurplus
   cost:
