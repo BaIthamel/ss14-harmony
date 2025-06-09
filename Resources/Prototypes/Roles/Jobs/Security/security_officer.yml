@@ -32,4 +32,14 @@
     back:
     - Flash
     - MagazinePistol
-    - WeaponPistolMk58
+    - WeaponPistolMk58 # harmony change
+
+- type: chameleonOutfit
+  id: SecurityOfficerChameleonOutfit
+  job: SecurityOfficer
+  hasMindShield: true
+  equipment:
+    head: ClothingHeadHatBeretSecurity
+    mask: ClothingMaskGasSecurity
+    neck: Dinkystar
+    gloves: ClothingHandsGlovesColorBlack
