@@ -5,6 +5,6 @@
   name: nefarious pizza bomb box
   description: Contains one nefarious pizza bomb. Does not contain pizza.
   components:
-    - type: StorageFill
-      contents:
-      - id: Pizzabomb
+  - type: StorageFill
+    contents:
+    - id: Pizzabomb
